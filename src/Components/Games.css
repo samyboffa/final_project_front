@@ -1,0 +1,26 @@
+.totalGameCards {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+}
+.searchGames {
+    text-align: center;
+    padding: 0.2% 1%;
+    align-self: center;
+
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.inputSearchGames {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+@media (max-width: 768px) {
+    .searchGames {
+        width: 80%;
+    }
+}

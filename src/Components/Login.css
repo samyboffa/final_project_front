@@ -1,0 +1,90 @@
+.loginPage {
+    text-align: center;
+    width: 30%;
+    margin: 5% auto;
+}
+.logoLoginPage {
+    font-family: "Fascinate", cursive;
+    font-size: 2.8em;
+}
+.loginBox {
+    border: 1px solid #dddddd;
+    background-color: rgba(255, 255, 255);
+    margin-top: 5%;
+}
+.loginTitle {
+    font-size: 1.5em;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f8f8f8;
+    padding: 5%;
+}
+
+.loginInputs {
+    padding: 5%;
+}
+.field svg {
+    display: block;
+}
+
+.field {
+    width: 70%;
+    border: 1px solid #dddddd;
+    margin: 4% auto;
+    height: 2.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    gap: 1%;
+}
+.field input {
+    border: none;
+    outline: none;
+    text-align: center;
+}
+.loadingBar {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(187, 204, 187, 0.8);
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.activeLoadingBar {
+    background-color: rgba(50, 211, 50, 0.8);
+    width: 10%;
+    height: 100%;
+}
+.logoLogin {
+    width: 150px;
+}
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.SVGLogin {
+    fill: #dddddd;
+    margin-left: 1.5%;
+}
+.submitLogin {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 40%;
+}
+.toSignUp {
+    color: rgb(0, 124, 124);
+}
+@media (max-width: 768px) {
+    .loginPage {
+        text-align: center;
+        width: 90%;
+        margin: 5% auto;
+    }
+    .field {
+        height: 6vw;
+    }
+}

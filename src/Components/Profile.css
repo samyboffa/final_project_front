@@ -1,0 +1,80 @@
+.profileBox {
+    margin-top: 2%;
+}
+.subTitle {
+    margin-left: 40%;
+    width: 100%;
+}
+.profileTitle {
+    width: 100%;
+}
+.ProfileSubTitle {
+    margin-top: 2%;
+    margin-left: 22%;
+}
+.ProfileInputBox {
+    margin-left: 25%;
+    padding: 0.2% 1%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.ProfileInput {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+.ProfileInput::placeholder {
+    color: black;
+}
+.profileSubmit {
+    margin-top: 5%;
+    text-align: center;
+}
+.profileSubmitButton {
+    color: white;
+    min-height: 8vh;
+    width: 20%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.profileSubmitButton:hover {
+    background-color: #f0792a;
+}
+.profileSubmitButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.failedProfileMessage {
+    color: red;
+    margin-top: 2%;
+    text-align: center;
+}
+.suceessProfileMessage {
+    color: green;
+    margin-top: 2%;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .profileTitle {
+        margin-top: 3%;
+    }
+    .profileTitle,
+    .ProfileSubTitle,
+    .ProfileInputBox {
+        width: 90%;
+    }
+    .ProfileSubTitle,
+    .ProfileInputBox {
+        margin: 2% auto;
+    }
+    .profileSubmitButton {
+        width: 35%;
+    }
+}

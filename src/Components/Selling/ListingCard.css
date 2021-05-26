@@ -1,0 +1,81 @@
+.oneOfferItemMy {
+    border: 1px solid rgb(106, 106, 106, 0.3);
+    margin: 2% auto 0% auto;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+.offerItemNumber {
+    display: flex;
+    justify-content: space-between;
+}
+.oneOfferItemBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.buyButtonOfferItemButtonMy {
+    color: white;
+    min-height: 5vh;
+    width: 10%;
+    background-color: #0048ff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.buyButtonOfferItemButtonMy:hover {
+    background-color: #060a79;
+}
+.buyButtonOfferItemButtonMy:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.offerItemEditNotVisible {
+    display: none;
+}
+.offerItemEdit {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease;
+}
+.offerItemEditBoxInput {
+    margin: 0.5% auto;
+    text-align: center;
+    padding: 0.2% 1%;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.offerItemEditBoxInput input,
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.buttonConfirmBox {
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    display: flex;
+}
+.deleteOffer {
+    background-color: #ff2600;
+}
+.deleteOffer:hover {
+    background-color: #921600;
+}
+.messageAfterAddingListingMy {
+    background-color: rgb(225, 225, 225, 0.1);
+}
+.buyButtonOfferItemButtonMy:disabled {
+    background-color: rgb(123, 123, 123);
+}
+.oneOfferItemMy {
+    background-color: #fff;
+}

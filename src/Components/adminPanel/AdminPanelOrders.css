@@ -1,0 +1,60 @@
+.adminOrdersButtonsBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.adminOrdersButtons {
+    color: white;
+    min-height: 8vh;
+    width: 20%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.adminOrdersButtons:hover {
+    background-color: #f0792a;
+}
+.adminOrdersButtons:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.msgAfterUpdatingOrder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    background-color: rgb(240, 240, 230, 0.9);
+}
+.msgAfterUpdatingOrderIcon {
+    fill: green;
+}
+.msgAfterUpdatingOrderButton {
+    color: white;
+    min-height: 8vh;
+    width: 40%;
+    background-color: #ff6400;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.msgAfterUpdatingOrderButton:hover {
+    background-color: #f0792a;
+}
+.msgAfterUpdatingOrderButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}

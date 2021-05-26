@@ -1,0 +1,285 @@
+.allHeader {
+    background-color: white;
+}
+.mainLogo {
+    width: 70px;
+    transition: 0.5s ease all;
+}
+.logoSearch {
+    display: flex;
+    justify-content: space-around;
+    gap: 30%;
+    height: 14vh;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(204, 204, 204);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainLogo:hover {
+    transform: rotate(-360deg);
+}
+svg {
+    display: block;
+}
+.navIcon {
+    display: none;
+}
+.logo {
+    font-family: "Fascinate", cursive;
+    font-size: 2.8em;
+}
+.navLogin {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20%;
+    height: 7vh;
+    align-items: center;
+    font-family: "Arima Madurai", cursive;
+    font-weight: bold;
+    border-bottom: 0.5px solid rgb(204, 204, 204);
+    font-size: 1.3em;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1 !important;
+    background-color: #fff;
+}
+
+.login {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+}
+.UserNameandCart a {
+    display: block;
+    margin-right: 10%;
+    width: 50%;
+}
+
+.UserNameandCart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.loopSvg {
+    display: block;
+}
+.loopSvg {
+    fill: rgb(204, 204, 204);
+}
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2% 1%;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.searchBar input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+
+.nav {
+    width: 40%;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    list-style: none;
+}
+/* SEARCH TOTAL*/
+.searchTotal {
+    width: 100%;
+    height: 350vh;
+    background-color: rgb(240, 240, 230, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.inputSearch {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    color: rgb(255, 255, 255);
+}
+.inputSearch input::placeholder {
+    color: #583d72;
+}
+.nothingFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px rgb(17, 17, 17, 0.6) solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+.inputSearch input {
+    width: 80%;
+    font-size: 3em;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px white solid;
+}
+.searchResult {
+    margin: 5% auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.cancelSearch {
+    transition: all 0.5s ease;
+    width: max-content;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.cancelSearch:hover {
+    fill: #ff954e;
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+/* UserMenu */
+.userMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    height: 100vh;
+    position: fixed;
+    width: 30vw;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    border-left: 0.1px solid rgb(204, 204, 204);
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+}
+.userName {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+    align-items: center;
+}
+.userName:hover {
+    cursor: pointer;
+    fill: #d8582c;
+    color: #d8582c;
+}
+.userMenuList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    align-items: center;
+}
+.backUser {
+    margin: 2%;
+    align-self: flex-end;
+}
+.userMenuList h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    fill: rgb(44, 44, 44);
+}
+.userMenu *:hover {
+    cursor: pointer;
+    color: #d8582c;
+    fill: #d8582c;
+}
+.logOutButton {
+    width: 70%;
+    height: 35px;
+    border-radius: 5em;
+}
+.cartAndNumber {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.cartAndNumber svg:hover {
+    cursor: pointer;
+    fill: #d8582c;
+}
+.cartQuantity {
+    position: relative;
+    background-color: #cf0000;
+    width: 25px;
+    height: 25px;
+    color: white;
+
+    border-radius: 50%;
+    top: -8px;
+    left: -4px;
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .userMenu {
+        width: 50vw;
+    }
+    .navIcon {
+        display: block;
+        cursor: pointer;
+        fill: rgb(34, 34, 34);
+    }
+    .nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        top: 7.1vh;
+        left: 0;
+        height: 72.8vh;
+        width: 50%;
+        border-right: 0.1px solid rgb(204, 204, 204);
+        transform: translateX(-110%);
+        transition: transform 0.5s ease-out;
+
+        z-index: 2;
+        background-color: white;
+    }
+
+    .logoSearch {
+        flex-direction: column;
+        gap: 0px;
+        height: 20vh;
+    }
+    .searchBar {
+        width: 70%;
+    }
+    .cartQuantity {
+        position: relative;
+        width: 25px;
+        height: 25px;
+
+        border-radius: 50%;
+        top: -5px;
+        left: 0px;
+    }
+    .login {
+        width: 30%;
+    }
+}

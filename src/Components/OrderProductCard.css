@@ -1,0 +1,73 @@
+.RatingSeller {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+}
+.inputRateSeller {
+    width: 40%;
+    padding: 0.2% 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.RatingSellerBtnsInput {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.inputRateSellerInput {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+}
+.RatingSellerBtn {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.likeClicked {
+    fill: green;
+    color: green;
+    transform: scale(1.2);
+}
+.dislikeClicked {
+    fill: red;
+    color: red;
+    transform: scale(1.2);
+}
+.likeBtn:hover {
+    fill: green;
+    color: green;
+    transform: scale(1.2);
+}
+.dislikeBtn:hover {
+    fill: red;
+    color: red;
+    transform: scale(1.2);
+}
+.submitRateBox {
+    width: 10%;
+}
+.submitRateBoxButton {
+    color: white;
+    min-height: 5vh;
+    width: 100%;
+
+    padding: 1%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.submitRateBoxButton:hover {
+    background-color: #f0792a;
+}
+.submitRateBoxButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}

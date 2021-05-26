@@ -1,0 +1,108 @@
+.signUpPage {
+    text-align: center;
+    width: 30%;
+    margin: 2% auto;
+    height: 100vh;
+}
+
+.logoSignUpPage {
+    font-family: "Fascinate", cursive;
+    font-size: 2.8em;
+}
+.SignUpBox {
+    border: 1px solid #dddddd;
+    margin-top: 5%;
+    width: 100%;
+    max-height: 100vw;
+    background-color: white;
+}
+.SignUpTitle {
+    font-size: 1.5em;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f8f8f8;
+    padding: 5%;
+}
+
+.SignUpInputs {
+    padding: 2%;
+}
+.field svg {
+    display: block;
+}
+.field {
+    width: 70%;
+    border: 1px solid #dddddd;
+    margin: 4% auto;
+    height: 2.5vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    gap: 1%;
+}
+.field input {
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+.SVGSignUp {
+    fill: #dddddd;
+    margin-left: 1.5%;
+}
+.submitSignUp {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 40%;
+}
+.logoSignUp {
+    width: 150px;
+}
+.responseInfo {
+    color: rgb(238, 54, 54);
+}
+.registerySuccess {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: absolute;
+    background-color: rgb(240, 240, 230, 0.8);
+    fill: green;
+}
+
+.registerySuccessButton {
+    color: white;
+    min-height: 8vh;
+    width: 40%;
+    background-color: #ff6400;
+    margin-top: 5%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.registerySuccessButton:hover {
+    background-color: #f0792a;
+}
+.registerySuccessButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .signUpPage {
+        text-align: center;
+        width: 90%;
+        margin: 5% auto;
+    }
+    .field {
+        height: 6vw;
+    }
+}

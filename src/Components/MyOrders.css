@@ -1,0 +1,73 @@
+.myOrdersPage {
+    width: 80%;
+    margin: 1% auto;
+}
+.orderItems {
+    background-color: white;
+}
+.myOrdersPageTitle {
+    margin-bottom: 2%;
+}
+.oneOrder {
+    border: 1px solid rgb(106, 106, 106, 0.3);
+    margin: 4% 0% 0% 0%;
+}
+.ordersNumber {
+    background-color: rgb(153, 153, 153);
+}
+.productItemName {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.productItemNameName {
+    width: 50%;
+}
+.productItemNameUnitPrice {
+    width: 20%;
+}
+.productItemName span {
+    display: block;
+}
+.orderStatus span {
+    display: block;
+}
+.orderStatus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5%;
+}
+.cancelBox {
+    display: flex;
+    justify-content: flex-end;
+}
+.cancelBoxButton {
+    color: white;
+    min-height: 8vh;
+    width: 20%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.cancelBoxButton:hover {
+    background-color: #f0792a;
+}
+.cancelBoxButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.ordersEmptyBox {
+    width: 80%;
+    margin: 5% auto;
+    border: 1px solid rgb(106, 106, 106, 0.3);
+}
+.ordersEmptyBoxText {
+    text-align: center;
+}
+.totalAndPriceOrders {
+    font-size: 1.8em;
+}

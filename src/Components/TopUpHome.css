@@ -1,0 +1,91 @@
+.topUpHome {
+    padding: 5%;
+    background-image: url("../images/test.jpg");
+}
+.logoTopUp img {
+    display: block;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+.topUpCard a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10%;
+}
+
+.topUpCard {
+    width: 19vw;
+    margin-top: 2%;
+    padding: 0.5% 1%;
+
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.5s ease;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    font-weight: bolder;
+}
+.topUpCard h3 {
+    color: white;
+}
+.topUpCard:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.topUpCard:hover img {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px black;
+}
+.topUpCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+.fortnite {
+    background: url("../images/fortniteBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pubg {
+    background: url("../images/pubgBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ff {
+    background: url("../images/ffBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.codMobile {
+    background: url("../images/codMobileBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.codWarzone {
+    background: url("../images/codWarzoneBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.valorant {
+    background: url("../images/valorantBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lol {
+    background: url("../images/lolBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.roblox {
+    background: url("../images/robloxBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+    .topUpCard {
+        width: 80vw;
+    }
+}

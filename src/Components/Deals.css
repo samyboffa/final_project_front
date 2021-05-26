@@ -1,0 +1,8 @@
+.superDeals {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}

@@ -1,0 +1,135 @@
+.cartElt {
+    margin-top: 1%;
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgb(213, 255, 223);
+    border: 1px solid rgb(106, 106, 106, 0.3);
+}
+
+.cartEltImg {
+    justify-self: flex-start;
+    width: 7vw;
+    padding: 0;
+}
+.cartEltDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100%;
+    width: 50%;
+}
+.cartEltSeller,
+.CartEltStore h5 {
+    color: rgb(112, 112, 112, 0.7);
+}
+.sellerBSHOP {
+    display: flex;
+    gap: 5%;
+    color: green;
+}
+.CartEltStore {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.CartEltRegionIcon {
+    width: 1.5vw;
+    height: fit-content;
+}
+.plusMoinExt {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    align-content: center;
+}
+.plusMoin {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+
+    border-radius: 50px;
+
+    border: 1px solid rgb(106, 106, 106);
+}
+.CartEltButton {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    fill: rgb(104, 104, 104);
+}
+.CartEltButton:hover {
+    fill: rgb(13, 107, 0);
+}
+
+.CartEltPlus:active {
+    opacity: 0.5;
+    transform: scale(1.5);
+    fill: rgb(0, 255, 0);
+}
+.CartEltMoin:active {
+    opacity: 0.5;
+    transform: scale(1.5);
+    fill: rgb(206, 0, 0);
+}
+.cartEltSubTotal {
+    display: flex;
+    align-items: center;
+    color: #ff6400;
+    text-shadow: 3px 3px 5px rgb(158, 158, 158, 0.5);
+}
+.cartEltRemove {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    fill: rgb(53, 53, 53);
+    cursor: pointer;
+}
+.cartEltRemove svg:hover {
+    fill: rgb(141, 0, 0);
+    transition: all 0.1s ease;
+}
+.cartEltRemove svg:active {
+    fill: rgb(255, 0, 0);
+    transform: scale(1.5);
+}
+@media (max-width: 768px) {
+    .cartElt {
+        flex-wrap: wrap;
+    }
+    .cartEltDescription {
+        width: 60vh;
+    }
+    .cartEltImg {
+        width: 18vw;
+    }
+    .cartEltSubTotal {
+        margin-top: 1%;
+        border-top: 1px solid rgb(106, 106, 106, 0.3);
+
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
+    }
+    .plusMoin {
+        width: 30%;
+    }
+    .plusMoinExt {
+        width: 100vw;
+    }
+    .cartEltRemove {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+}

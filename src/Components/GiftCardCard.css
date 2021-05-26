@@ -1,0 +1,82 @@
+.poster {
+    box-shadow: 0px 0px 10px black;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.gCardCard:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.gCardCard {
+    width: 10vw;
+    position: relative;
+    transition: all 0.5s ease;
+    margin-top: 6%;
+    background: #ffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gCardCard:hover {
+    z-index: 2;
+}
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(16, 0, 49);
+    transition: all 0.5s ease;
+    opacity: 0;
+    border-radius: 10px;
+    gap: 10%;
+    padding: 1%;
+}
+.info * {
+    color: rgb(255, 255, 255);
+}
+.info:hover {
+    opacity: 0.94;
+}
+.prices {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-size: 0.9em;
+}
+.originalPrice {
+    text-decoration: line-through;
+}
+.discount {
+    background-image: url(../images/backgroundDiscount.png);
+    width: 100%;
+    padding: 8%;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(-10deg);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.currentPrice {
+    color: #fe5f16;
+}
+
+@media (max-width: 768px) {
+    .gCardCard {
+        width: 23vw;
+        gap: 5%;
+        font-size: 0.7em;
+    }
+}

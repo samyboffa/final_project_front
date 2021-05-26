@@ -1,0 +1,96 @@
+.allCards {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2% auto;
+}
+
+.totalGiftCards {
+    margin: 5% auto;
+}
+.filterBox {
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 2px 2px 10px black;
+    padding: 2%;
+    width: 18vw;
+    height: max-content;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background: rgb(255, 255, 255);
+    transform: translateX(-120%);
+    transition: all 0.5s ease;
+    height: 100vh;
+}
+.backFilter {
+    width: fit-content;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.backFilter:hover {
+    fill: #d8582c;
+}
+.filterBox form {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+.container {
+    display: block;
+    margin: 1%;
+}
+
+.bodyCards {
+    display: flex;
+}
+
+.svgSetting {
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 1%;
+    position: fixed;
+    top: 50vh;
+
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.svgSetting:hover {
+    fill: #d8582c;
+    border: 3px solid #d8582c;
+}
+.active {
+    transform: translateX(0%);
+}
+
+.resetFilters {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    height: 8vh;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.resetFilters:hover {
+    background-color: #f0792a;
+}
+.resetFilters:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .filterBox {
+        width: 50vw;
+    }
+    .svgSetting {
+        left: -4%;
+    }
+}

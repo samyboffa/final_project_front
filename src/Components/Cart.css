@@ -1,0 +1,127 @@
+.cartHeader {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(106, 106, 106, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.cartHeaderImg {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+}
+.allCart {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.leftCart {
+    width: 60%;
+}
+.cartBody {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+.rightCart {
+    width: 30%;
+    position: sticky;
+    top: 20vh;
+    border: 1px solid rgb(106, 106, 106, 0.3);
+    padding: 1%;
+}
+.emptyCart {
+    border: 1px solid rgb(106, 106, 106);
+    text-align: center;
+}
+.numberOfProductAndPrice {
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutButtonBox {
+    display: flex;
+    justify-content: center;
+    min-height: 8vh;
+}
+
+.checkoutButton {
+    margin-top: 5%;
+    color: white;
+    min-height: 8vh;
+    width: 50%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.checkoutButton:hover {
+    background-color: #f0792a;
+}
+.checkoutButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+
+.windowAfterPurchase {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(240, 240, 230, 0.9);
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.windowAfterPurchaseText {
+    padding: 1%;
+}
+.windowAfterPurchaseButton {
+    margin-top: 2%;
+    color: white;
+    min-height: 8vh;
+    width: 40%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.windowAfterPurchaseButton:hover {
+    background-color: #f0792a;
+}
+.windowAfterPurchaseButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.checkoutBoxPaypal {
+    margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+    .allCart {
+        flex-direction: column;
+    }
+    .leftCart {
+        width: 99%;
+    }
+    .rightCart {
+        width: 99%;
+        bottom: 0;
+        background-color: white;
+    }
+}

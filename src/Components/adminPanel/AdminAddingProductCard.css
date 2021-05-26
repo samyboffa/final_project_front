@@ -1,0 +1,21 @@
+.confirmAdding {
+    text-align: center;
+}
+.adminAddSvg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.adminAddSvg svg {
+    fill: #ff6400;
+    transition: all 0.3s ease;
+}
+
+.adminAddSvg svg:hover {
+    transform: scale(1.1);
+}
+.addFormAdmin {
+    margin-top: 30px;
+}

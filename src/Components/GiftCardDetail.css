@@ -1,0 +1,179 @@
+.cardDetails {
+    display: flex;
+    margin: 5% auto;
+}
+.cardDescription {
+    width: 60%;
+}
+.cardImg {
+    width: 40%;
+    display: block;
+    border-radius: 10px;
+}
+.cardImgContainer {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+}
+.buyBox {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    padding: 1%;
+}
+.buyButton button:disabled {
+    background-color: rgb(128, 128, 128);
+    cursor: not-allowed;
+}
+.buyButton button:disabled:hover {
+    background-color: rgb(128, 128, 128);
+}
+.priceNumber {
+    margin-left: 5%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.priceBox {
+    min-width: 100px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buyAddToCart {
+    display: flex;
+    gap: 5%;
+    width: 60%;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+    height: 10vh;
+}
+.addToCartButton button {
+    padding: 0% 50%;
+}
+.buyButton {
+    width: 50%;
+}
+.buyButton button {
+    width: 100%;
+    width: 100%;
+    height: 6vh;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.infoIcons {
+    width: 40px;
+    display: block;
+    height: 40px;
+}
+.buyButton button {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: #f9ca24;
+    border: none;
+    outline: none;
+}
+.buyButton button:hover {
+    background-color: #ffbe76;
+}
+.buyButton button:active {
+    background-color: #f0932b;
+}
+
+.informations {
+    margin-top: 5%;
+    display: flex;
+    padding: 1%;
+    gap: 3%;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+}
+.infoBox {
+    display: flex;
+    width: 30%;
+}
+.afterIcon {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 100%;
+}
+.afterIcon h1 {
+    margin-left: 10%;
+}
+.originalPrice {
+    text-decoration: line-through;
+}
+.afterAddToCart {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: fixed;
+    background-color: rgb(240, 240, 230, 0.9);
+}
+.alreadyInCart {
+    color: red;
+}
+.notVisible {
+    display: none;
+}
+
+.afterAddToCartButtons {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.afterAddToCartButton {
+    min-width: 10vw;
+    color: white;
+    min-height: 8vh;
+    padding: 0% 4%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.afterAddToCartButton:hover {
+    background-color: #f0792a;
+}
+.afterAddToCartButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    .cardDetails {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardDescription {
+        width: 100%;
+    }
+    .cardName {
+        text-align: center;
+    }
+    .informations {
+        flex-wrap: wrap;
+        font-size: 0.7em;
+    }
+    .cardName,
+    .informations,
+    .cardDescription,
+    .buyBox {
+        width: 98%;
+        margin: 2% auto;
+    }
+}

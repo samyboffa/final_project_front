@@ -1,0 +1,26 @@
+.BuyingConfirmationshown {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    z-index: 5;
+    height: 100vh;
+    transition: all 0.5s ease;
+    transform: scale(1);
+    background-color: rgb(170, 170, 170, 0.2);
+}
+.BuyingConfirmationNotshown {
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+.sellerSection {
+    display: flex;
+    justify-content: space-between;
+}

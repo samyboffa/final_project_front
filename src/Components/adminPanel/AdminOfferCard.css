@@ -1,0 +1,135 @@
+.adminoneOfferItemTotal {
+    width: 100%;
+}
+
+.adminoneOfferItem {
+    border: 1px solid rgb(106, 106, 106, 0.3);
+    margin: 0% auto;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+.adminofferItemImg {
+    max-width: 150px;
+}
+.adminofferItemAfterImage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.adminofferItemNumber {
+    background-color: rgb(153, 153, 153, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminbuyButtonOfferItem {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.adminButtonsManage {
+    width: 80%;
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1%;
+    margin: 0% auto 5% auto;
+    background-color: #fff;
+    border: 1px solid rgb(106, 106, 106, 0.3);
+}
+.adminofferItemNameDescription {
+    max-width: 100%;
+    min-height: 6vh;
+}
+
+.adminButtonsManageButtons {
+    color: white;
+    min-height: 5vh;
+    width: 10%;
+    background-color: #ff6400;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.adminButtonsManageButtons:hover {
+    background-color: #f0792a;
+}
+.adminButtonsManageButtons:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.adminAccept {
+    background-color: #1eae98;
+}
+.adminAccept:hover {
+    background-color: #097061;
+}
+.adminDecline {
+    background-color: #f55c47;
+}
+.adminDecline:hover {
+    background-color: #9e1604;
+}
+.adminButtonsManageReasons {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+    align-items: center;
+    background-color: white;
+
+    border-radius: 10px;
+    border: 0.1px solid rgb(204, 204, 204);
+}
+.adminButtonsManageReasons input {
+    border: none;
+    outline: none;
+    width: 90%;
+}
+.adminDecline:disabled {
+    background-color: rgb(119, 119, 119);
+}
+.adminClearRejectedBox {
+    margin-top: 2%;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.adminClearRejectedButton {
+    color: white;
+    min-height: 8vh;
+    width: 20%;
+    background-color: #f55c47;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.adminClearRejectedButton:hover {
+    background-color: #9e1604;
+}
+.adminClearRejectedButton:active {
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.OffersEmpty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.OffersEmpty h4 {
+    padding: 2%;
+    border: 0.1px solid rgb(204, 204, 204);
+    width: 20%;
+    text-align: center;
+}
+.adminoneOfferItem {
+    background-color: #fff;
+}

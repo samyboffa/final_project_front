@@ -1,0 +1,27 @@
+.accessDeniedTotal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 6;
+    background-color: rgb(255, 255, 255);
+    gap: 10%;
+}
+.accessDeniedTitle {
+    letter-spacing: 2px;
+}
+.accessDeniedLogin {
+    display: inline-block;
+    font-size: 1.2em;
+    color: brown;
+    text-decoration: underline currentColor;
+    transition: all 0.5s ease;
+}
+.accessDeniedLogin:hover {
+    transform: scale(1.2);
+}
